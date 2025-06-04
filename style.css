@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+    box-sizing: border-box;
+    
+}
+
+html,body{
+    width: 100%;
+    height:100%;
+}
+#main{
+    width: 100%;
+    height:100%;
+    background-color: rgba(106, 138, 112, 0.829);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#panel{
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 10px;
+}
+#ptop{
+    padding: 0px 30%;
+    color: white;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(46, 109, 58);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.elem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* background-color: red; */
+    /* width: 10%; */
+    
+}
+.elem h2{
+    font-weight: 500;
+    font-size: 17;
+   
+    
+}
+.box{
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    color: rgb(17, 121, 36);
+    font-weight: 600;
+    font-size: 25px;
+}
+#pbtn{
+    width: 100%;
+    gap: 10px;
+    flex-wrap: wrap;
+    height: calc(100% - 100px);   /* % le px lai - garda calc use garney */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(17, 121, 36);
+    color: white;
+    border-radius: 50%;
+    font-weight: 500;
+}
+.bubble:hover {
+    background-color: rgb(3, 56, 13);
+    cursor: pointer;
+}
+
+
